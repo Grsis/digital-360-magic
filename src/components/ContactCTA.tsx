@@ -24,7 +24,7 @@ const ContactCTA = () => {
   };
 
   return (
-    <section id="contact" className="py-24 bg-secondary">
+    <section id="contact" className="py-24 bg-secondary/50">
       <div className="container px-4 mx-auto">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">

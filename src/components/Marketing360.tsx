@@ -26,7 +26,7 @@ const Marketing360 = () => {
   ];
 
   return (
-    <section className="py-24 bg-secondary">
+    <section className="py-24 bg-secondary/50">
       <div className="container px-4 mx-auto">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
