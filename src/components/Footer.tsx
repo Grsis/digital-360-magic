@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Instagram, Linkedin, Mail, Phone } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -15,17 +15,14 @@ const Footer = () => {
                 Marketing completo, resultados reais.
               </p>
               <div className="flex gap-4">
-                <a href="#" className="p-2 bg-card rounded-lg hover:bg-accent hover:text-accent-foreground transition-colors">
-                  <Facebook className="w-5 h-5" />
-                </a>
-                <a href="#" className="p-2 bg-card rounded-lg hover:bg-accent hover:text-accent-foreground transition-colors">
+                <a href="https://instagram.com/adventuremktg" target="_blank" rel="noopener noreferrer" className="p-2 bg-card rounded-lg hover:bg-accent hover:text-accent-foreground transition-colors">
                   <Instagram className="w-5 h-5" />
                 </a>
-                <a href="#" className="p-2 bg-card rounded-lg hover:bg-accent hover:text-accent-foreground transition-colors">
-                  <Linkedin className="w-5 h-5" />
+                <a href="mailto:team@adventure.mktg.com" className="p-2 bg-card rounded-lg hover:bg-accent hover:text-accent-foreground transition-colors">
+                  <Mail className="w-5 h-5" />
                 </a>
-                <a href="#" className="p-2 bg-card rounded-lg hover:bg-accent hover:text-accent-foreground transition-colors">
-                  <Twitter className="w-5 h-5" />
+                <a href="tel:+351910597607" className="p-2 bg-card rounded-lg hover:bg-accent hover:text-accent-foreground transition-colors">
+                  <Phone className="w-5 h-5" />
                 </a>
               </div>
             </div>

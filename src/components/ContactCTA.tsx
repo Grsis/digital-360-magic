@@ -93,7 +93,7 @@ const ContactCTA = () => {
                     </div>
                     <div>
                       <div className="font-semibold text-foreground">Email</div>
-                      <div className="text-muted-foreground">contato@agencia360.com</div>
+                      <div className="text-muted-foreground">team@adventure.mktg.com</div>
                     </div>
                   </div>
                   
@@ -103,7 +103,7 @@ const ContactCTA = () => {
                     </div>
                     <div>
                       <div className="font-semibold text-foreground">Telefone</div>
-                      <div className="text-muted-foreground">+351 XXX XXX XXX</div>
+                      <div className="text-muted-foreground">+351 910 597 607</div>
                     </div>
                   </div>
                   
