@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="grid gap-8 md:grid-cols-4 mb-8">
             <div className="md:col-span-2">
               <h3 className="text-2xl font-bold mb-4">
-                Agência <span className="text-accent">360º</span>
+                Adventure <span className="text-accent">Marketing</span>
               </h3>
               <p className="text-muted-foreground mb-4">
                 Transformamos desafios digitais em oportunidades de crescimento. 
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
 
           <div className="pt-8 border-t border-border text-center text-muted-foreground">
-            <p>&copy; 2025 Agência 360º. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Adventure Marketing. Todos os direitos reservados.</p>
           </div>
         </div>
       </div>

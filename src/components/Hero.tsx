@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, TrendingUp, Users, Target, Star } from "lucide-react";
 import professionalHero from "@/assets/professional-hero.jpg";
+import adventureLogo from "@/assets/adventure-logo.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -13,6 +14,9 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
           {/* Left Content */}
           <div className="space-y-8 animate-fade-in">
+            <div className="mb-6">
+              <img src={adventureLogo} alt="Adventure Marketing" className="h-16 w-auto mb-4" />
+            </div>
             <div className="inline-block px-4 py-2 bg-accent/10 border border-accent/30 rounded-full text-accent text-sm font-semibold mb-4">
               ✨ Especialistas em Marketing Digital
             </div>
@@ -23,7 +27,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl text-muted-foreground leading-relaxed max-w-xl">
-              Não arrisque a sua faturação com tentativas e erros. Contrate uma agência 360º e comece a ver crescimento real ainda este mês. A nossa estratégia já entregou resultados comprovados.
+              Não arrisque a sua faturação com tentativas e erros. A Adventure Marketing entrega resultados reais ainda este mês. A nossa estratégia já provou funcionar.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
