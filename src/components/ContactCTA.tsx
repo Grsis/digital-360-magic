@@ -32,7 +32,7 @@ const ContactCTA = () => {
               Pronto Para <span className="text-accent">Crescer</span>?
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Entre em contato e descubra como podemos transformar seus desafios digitais em oportunidades
+              Entre em contacto e descubra como podemos transformar os seus desafios digitais em oportunidades
             </p>
           </div>
 
@@ -44,27 +44,27 @@ const ContactCTA = () => {
                 </h3>
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <Input
-                    placeholder="Seu nome"
+                    placeholder="O seu nome"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     required
                   />
                   <Input
                     type="email"
-                    placeholder="Seu email"
+                    placeholder="O seu email"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     required
                   />
                   <Input
                     type="tel"
-                    placeholder="Seu telefone"
+                    placeholder="O seu telefone"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     required
                   />
                   <Textarea
-                    placeholder="Conte-nos sobre seu projeto"
+                    placeholder="Conte-nos sobre o seu projeto"
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     required
@@ -124,7 +124,7 @@ const ContactCTA = () => {
                   Consultoria Gratuita
                 </h4>
                 <p className="text-muted-foreground mb-4">
-                  Agende uma conversa sem compromisso e descubra como podemos ajudar seu negócio a crescer no digital.
+                  Agende uma conversa sem compromisso e descubra como podemos ajudar o seu negócio a crescer no digital.
                 </p>
                 <Button variant="outline" className="border-accent text-accent hover:bg-accent hover:text-accent-foreground">
                   Agendar Consultoria

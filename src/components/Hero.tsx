@@ -18,12 +18,12 @@ const Hero = () => {
             </div>
             
             <h1 className="text-5xl font-bold tracking-tight text-foreground md:text-6xl lg:text-7xl leading-tight">
-              Cansado de gastar em marketing{" "}
+              Cansado de investir em marketing{" "}
               <span className="text-accent">sem resultados</span>?
             </h1>
             
             <p className="text-xl text-muted-foreground leading-relaxed max-w-xl">
-              Não arrisque seu faturamento com tentativas e erros. Contrate uma agência 360º e comece a ver crescimento real ainda este mês. Nossa estratégia já entregou resultados comprovados.
+              Não arrisque a sua faturação com tentativas e erros. Contrate uma agência 360º e comece a ver crescimento real ainda este mês. A nossa estratégia já entregou resultados comprovados.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -32,7 +32,7 @@ const Hero = () => {
                 onClick={scrollToContact}
                 className="bg-accent hover:bg-accent-glow text-accent-foreground text-lg px-8 py-7 shadow-glow-strong transition-all duration-300 hover:scale-105 font-bold"
               >
-                Quero Aumentar Minhas Vendas Agora! 
+                Quero Aumentar as Minhas Vendas Agora!
                 <ArrowRight className="ml-2 h-6 w-6" />
               </Button>
             </div>

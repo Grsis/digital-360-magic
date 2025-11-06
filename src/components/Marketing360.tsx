@@ -38,7 +38,7 @@ const Marketing360 = () => {
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Uma abordagem completa e integrada que conecta todas as suas estratégias digitais. 
-              Do planejamento à execução, garantimos que cada ponto de contato com seu cliente 
+              Do planeamento à execução, garantimos que cada ponto de contacto com o seu cliente 
               esteja alinhado para gerar resultados máximos.
             </p>
           </div>

@@ -40,10 +40,10 @@ const Services = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4 text-foreground md:text-5xl">
-              Soluções Completas Para Seu <span className="text-accent">Sucesso Digital</span>
+              Soluções Completas Para o Seu <span className="text-accent">Sucesso Digital</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Integramos todas as ferramentas e estratégias necessárias para impulsionar seu negócio
+              Integramos todas as ferramentas e estratégias necessárias para impulsionar o seu negócio
             </p>
           </div>
 
