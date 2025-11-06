@@ -1,5 +1,4 @@
 import { Target, Users, TrendingUp, Zap } from "lucide-react";
-import icon360 from "@/assets/360-icon.png";
 
 const Marketing360 = () => {
   const benefits = [
@@ -30,9 +29,6 @@ const Marketing360 = () => {
       <div className="container px-4 mx-auto">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
-            <div className="flex justify-center mb-6">
-              <img src={icon360} alt="Marketing 360º" className="w-24 h-24" />
-            </div>
             <h2 className="text-4xl font-bold mb-4 text-foreground md:text-5xl">
               O Que é Marketing <span className="text-accent">360º</span>?
             </h2>
